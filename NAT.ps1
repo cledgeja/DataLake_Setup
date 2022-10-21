@@ -1,6 +1,6 @@
 #create new virtual switch
 #Import-Module PSReadLine
-New-VMSwitch -SwitchName LabSwitch -SwitchType Internal
+#New-VMSwitch -SwitchName LabSwitch -SwitchType Internal
  
 Get-NetAdapter
 #get from new switch created ifIndex
